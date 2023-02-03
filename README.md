@@ -9,10 +9,7 @@
 	<img src="https://img.shields.io/github/repo-size/psyll/Noty-JS" alt="Repo Size">
 	<img src="https://img.shields.io/github/languages/code-size/psyll/Noty-JS" alt="Code Size">
 	<img src="https://img.shields.io/github/last-commit/psyll/Noty-JS" alt="Last commit">
-	<img src="https://img.shields.io/github/repo-size/psyll/Noty-JS" alt="Repo Size">
 	<img src="https://img.shields.io/github/issues-raw/psyll/Noty-JS" alt="Open issues">
-
-
 </p>
 
 ## Projects links
