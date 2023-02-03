@@ -109,7 +109,7 @@ noty.push({
   			alert('OK button clicked');
   		}
    	},
-   	cancel: {
+   	close: {
    		text: 'Close',
    		action: function () {
    			alert('Close button clicked');
@@ -133,14 +133,14 @@ noty.push({
   text: 'Confirmation text',
   timeout: 4000,
   buttons: {
-  	logout: {
+  	ok: {
   	  classname: "noty-button-true",
   		text: "OK"
   		action: function () {
   			alert('OK button clicked');
   		}
   	},
-  	cancel: {
+  	close: {
   		classname: "noty-button-false",
   		text: 'Close',
   		action: function () {
