@@ -3,10 +3,10 @@
 ![Noty-JS](assets/img/header.png "Noty-JS")
 
 <p align="center">
-
 	<a href="https://badgen.net/badge/license/pocl">
 	<img src="https://psyll.com/en/license/pocl-psyll-open-code-license" alt="Display">
 	</a>
+</p>
 
 
 
@@ -16,7 +16,7 @@
 ![Last commit](https://img.shields.io/github/last-commit/psyll/Noty-JS)
 ![Open issues](https://img.shields.io/github/issues-raw/psyll/Noty-JS)
 
-</p>
+
 
 
 ## Table of contents
