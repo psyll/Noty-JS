@@ -4,7 +4,7 @@
 
 <p align="center">
 
-[![License](https://badgen.net/badge/license/pocl)](https://psyll.com/en/license/pocl-psyll-public-code-license)
+[![License](https://badgen.net/badge/license/pocl)](https://psyll.com/en/license/pocl-psyll-open-code-license)
 ![Repo Size](https://img.shields.io/github/repo-size/psyll/Noty-JS)
 ![Code Size](https://img.shields.io/github/languages/code-size/psyll/Noty-JS)
 ![Last commit](https://img.shields.io/github/last-commit/psyll/Noty-JS)
