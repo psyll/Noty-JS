@@ -4,7 +4,7 @@
 
 <p align="center">
 
-[![License](https://badgen.net/badge/license/POCL)](https://psyll.com/en/license/pocl-psyll-public-code-license)
+[![License](https://badgen.net/badge/license/pocl)](https://psyll.com/en/license/pocl-psyll-public-code-license)
 ![Repo Size](https://img.shields.io/github/repo-size/psyll/Noty-JS)
 ![Code Size](https://img.shields.io/github/languages/code-size/psyll/Noty-JS)
 ![Last commit](https://img.shields.io/github/last-commit/psyll/Noty-JS)
@@ -12,11 +12,28 @@
 
 </p>
 
+
+## Table of contents
+* [Introduction](#introduction)
+* [Installation](#installation)
+* [Plugin initialization](#plugin-initialization)
+* [Create notification](#create-notification)
+* [Create confirmation with buttons](#create-confirmation-with-buttons)
+* [Authors](#authors)
+* [Changelog](#changelog)
+* [License](#license)
+
+## Introduction
+
 **Noty** is a versatile javascript plugin designed to provide a simple and efficient solution for notifications on any website. With its focus on being lightweight, Noty doesn't require any additional dependencies, making it a hassle-free choice for web developers. Notifications can be customized with ease to match the look and feel of your website, giving you complete control over the appearance of your notifications.
+
+_________________
 
 <p align="center">
 	<img src="assets/img/display.gif" alt="Display" style="border:1px solid black">
 </p>
+
+_________________
 
 The plugin comes with several pre-defined templates, allowing you to quickly create notifications with a consistent design. Additionally, you can create your own templates to suit specific requirements, such as highlighting important messages or emphasizing specific information. Noty is also flexible enough to allow you to set the position, animation, and duration of notifications, giving you full control over how your notifications are displayed.
 
@@ -27,15 +44,6 @@ In conclusion, Noty is an ideal solution for those who want a quick and easy way
 - Homepage: [https://psyll.com/en/noty-js](https://psyll.com/en/noty-js)
 - Online Demo: [https://psyll.com/en/noty-js/demo](https://psyll.com/en/noty-js/demo)
 
-## Table of contents
-
-* [Installation](#installation)
-* [Plugin initialization](#plugin-initialization)
-* [Create notification](#create-notification)
-* [Create confirmation with buttons](#create-confirmation-with-buttons)
-* [Authors](#authors)
-* [Changelog](#changelog)
-* [License](#license)
 
 ## Installation
 
