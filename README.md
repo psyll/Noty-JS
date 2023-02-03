@@ -49,10 +49,10 @@ However, you can still customize your notifications by adding parameters to the 
 
 ```javascript
 const noty = new Noty({
-	hoverPause: true,
-	timeout: 4000,
-	position: "right-bottom",
-	animation: "slide-right fade flip zoom",
+  hoverPause: true,
+  timeout: 4000,
+  position: "right-bottom",
+  animation: "slide-right fade flip zoom",
 });
 ```
 
@@ -76,11 +76,11 @@ noty.push({text: "I am a log message"});
 This will create a basic log message. However, you can also expand the notification by adding additional parameters, such as:
 
 ```javascript
-	noty.push({
-	type: "log",
-	title: "Log",
-	text: "I am a log message",
-	timeout: 4000,
+noty.push({
+  type: "log",
+  title: "Log",
+  text: "I am a log message",
+  timeout: 4000,
 });
 ```
 
@@ -99,22 +99,22 @@ In order to create a confirmation notification using the Noty plugin, you can us
 
 ```javascript
 noty.push({
-	text: 'Confirmation text',
-	buttons: {
-		ok: {
-			text: "OK"
-			action: function () {
-				alert('OK button clicked');
-			}
-		},
-		cancel: {
-			text: 'Close',
-			action: function () {
-				alert('Close button clicked');
-			},
-			close: true,
-		},
-	}
+  text: 'Confirmation text',
+  buttons: {
+  	ok: {
+  		text: "OK"
+  		action: function () {
+  			alert('OK button clicked');
+  		}
+   	},
+   	cancel: {
+   		text: 'Close',
+   		action: function () {
+   			alert('Close button clicked');
+  		},
+   		close: true,
+   	},
+  }
 });
 ```
 
@@ -126,27 +126,27 @@ In this code, we are using the `noty.push()` method to create a new notification
 
 ```javascript
 noty.push({
-	type: 'warning',
-	title: 'Confirmation title',
-	text: 'Confirmation text',
-	timeout: 4000,
-	buttons: {
-		logout: {
-			classname: "noty-button-true",
-			text: "OK"
-			action: function () {
-				alert('OK button clicked');
-			}
-		},
-		cancel: {
-			classname: "noty-button-false",
-			text: 'Close',
-			action: function () {
-				alert('Close button clicked');
-			},
-			close: true,
-		},
-	}
+  type: 'warning',
+  title: 'Confirmation title',
+  text: 'Confirmation text',
+  timeout: 4000,
+  buttons: {
+  	logout: {
+  	  classname: "noty-button-true",
+  		text: "OK"
+  		action: function () {
+  			alert('OK button clicked');
+  		}
+  	},
+  	cancel: {
+  		classname: "noty-button-false",
+  		text: 'Close',
+  		action: function () {
+  			alert('Close button clicked');
+  		},
+  		close: true,
+  	},
+  }
 });
 ```
 
