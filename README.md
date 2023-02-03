@@ -3,8 +3,8 @@
 ![Noty-JS](assets/img/header.png "Noty-JS")
 
 <p align="center">
-	<a href="https://badgen.net/badge/license/pocl">
-	<img src="https://psyll.com/en/license/pocl-psyll-open-code-license" alt="Display">
+	<a href="https://psyll.com/en/license/pocl-psyll-open-code-license">
+	<img src="https://badgen.net/badge/license/pocl" alt="Display">
 	</a>
 </p>
 
