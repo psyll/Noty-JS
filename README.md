@@ -3,19 +3,24 @@
 ![Noty-JS](assets/img/header.png "Noty-JS")
 
 <p align="center">
-	<a href="https://psyll.com/en/license/pocl-psyll-open-code-license">
-	<img src="https://badgen.net/badge/license/pocl" alt="Display">
+	<a href="https://github.com/psyll/Noty-JS/blob/master/LICENSE">
+		<img src="https://badgen.net/badge/license/mit" alt="Display">
 	</a>
+	<img src="https://img.shields.io/github/repo-size/psyll/Noty-JS" alt="Repo Size">
+	<img src="https://img.shields.io/github/languages/code-size/psyll/Noty-JS" alt="Code Size">
+	<img src="https://img.shields.io/github/last-commit/psyll/Noty-JS" alt="Last commit">
+	<img src="https://img.shields.io/github/repo-size/psyll/Noty-JS" alt="Repo Size">
+	<img src="https://img.shields.io/github/issues-raw/psyll/Noty-JS" alt="Open issues">
+
+
 </p>
 
+## Projects links
 
-
-[![License](https://badgen.net/badge/license/pocl)](https://psyll.com/en/license/pocl-psyll-open-code-license)
-![Repo Size](https://img.shields.io/github/repo-size/psyll/Noty-JS)
-![Code Size](https://img.shields.io/github/languages/code-size/psyll/Noty-JS)
-![Last commit](https://img.shields.io/github/last-commit/psyll/Noty-JS)
-![Open issues](https://img.shields.io/github/issues-raw/psyll/Noty-JS)
-
+- Github Repistory: [https://github.com/psyll/Noty-JS](https://github.com/psyll/Noty-JS)
+- Github Pages: [https://psyll.github.io/Noty-JS/](https://psyll.github.io/Noty-JS)
+- Homepage: [https://psyll.com/en/noty-js](https://psyll.com/en/noty-js)
+- Online Demo: [https://psyll.com/en/noty-js/demo](https://psyll.com/en/noty-js/demo)
 
 
 
@@ -44,12 +49,6 @@ _________________
 The plugin comes with several pre-defined templates, allowing you to quickly create notifications with a consistent design. Additionally, you can create your own templates to suit specific requirements, such as highlighting important messages or emphasizing specific information. Noty is also flexible enough to allow you to set the position, animation, and duration of notifications, giving you full control over how your notifications are displayed.
 
 In conclusion, Noty is an ideal solution for those who want a quick and easy way to add notifications and confirmations to their website. With its lightweight design, customizable templates, and flexible settings, Noty is a must-have tool for any web developer.
-
-- Github Repistory: [https://github.com/psyll/Noty-JS](https://github.com/psyll/Noty-JS)
-- Github Pages: [https://psyll.github.io/Noty-JS/](https://psyll.github.io/Noty-JS)
-- Homepage: [https://psyll.com/en/noty-js](https://psyll.com/en/noty-js)
-- Online Demo: [https://psyll.com/en/noty-js/demo](https://psyll.com/en/noty-js/demo)
-
 
 ## Installation
 
