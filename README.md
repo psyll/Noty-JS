@@ -15,8 +15,10 @@ The plugin comes with several pre-defined templates, allowing you to quickly cre
 
 In conclusion, Noty is an ideal solution for those who want a quick and easy way to add notifications and confirmations to their website. With its lightweight design, customizable templates, and flexible settings, Noty is a must-have tool for any web developer.
 
+- Github Repistory: [https://github.com/psyll/Noty-JS](https://github.com/psyll/Noty-JS)
 - Github Pages: [https://psyll.github.io/Noty-JS/](https://psyll.github.io/Noty-JS)
-- Online demo: [https://psyll.com/noty-js/demo](https://psyll.com/noty-js/demo)
+- Homepage: [https://psyll.com/noty-js](https://psyll.com/noty-js)
+- Online Demo: [https://psyll.com/products/noty-js/demo](https://psyll.com/products/noty-js/demo)
 
 ## Table of contents
 
@@ -91,7 +93,7 @@ The variables include:
 - **`text`** (* required) - The content of the notification
 - **`timeout`** - The time period until the specific notification automatically closes (in milliseconds). The default value is taken from the plugin initialization.
 
-<p align="center" width="100%">
+<p style="text-align:center" width="100%">
 ![Notification types](assets/img/types.png "Notification types")
 </p>
 
