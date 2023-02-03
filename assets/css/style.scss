@@ -2,20 +2,20 @@
 ---
 @import "{{ site.theme }}";
 body{
-	background-color:white;
+	background-color:#24292f;
 }
 .page-header {
-	background-color: #white;
+	background-color: #24292f;
 	background-image: unset;
 }
 .main-content{
 	background-color:white;
 }
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6{
-    color:black;
+    color:#24292f;
 }
 .main-content code{
 	font-size: unset;
-	background-color: white;
-	color: black;
+	background-color: #24292f;
+	color: white;
 }
