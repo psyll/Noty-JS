@@ -1,12 +1,17 @@
 # Noty JS
 
-![PHP Backdoor](assets/img/header.png "PHP Backdoor")
+![Noty-JS](assets/img/header.png "Noty-JS")
 
-[![License](https://badgen.net/badge/license/POCL)](https://psyll.com/license/pocl-psyll-public-code-license)
+[![License](https://badgen.net/badge/license/POCL)](https://psyll.com/en/license/pocl-psyll-public-code-license)
 ![Repo Size](https://img.shields.io/github/repo-size/psyll/Noty-JS)
 ![Code Size](https://img.shields.io/github/languages/code-size/psyll/Noty-JS)
 ![Last commit](https://img.shields.io/github/last-commit/psyll/Noty-JS)
 ![Open issues](https://img.shields.io/github/issues-raw/psyll/Noty-JS)
+
+
+<p style="text-align:center" width="100%">
+![Display](assets/img/display.gif "Display")
+</p>
 
 
 **Noty** is a versatile javascript plugin designed to provide a simple and efficient solution for notifications on any website. With its focus on being lightweight, Noty doesn't require any additional dependencies, making it a hassle-free choice for web developers. Notifications can be customized with ease to match the look and feel of your website, giving you complete control over the appearance of your notifications.
