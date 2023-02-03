@@ -2,10 +2,10 @@
 ---
 @import "{{ site.theme }}";
 body{
-	background-color:black;
+	background-color:white;
 }
 .page-header {
-	background-color: #000;
+	background-color: #white;
 	background-image: unset;
 }
 .main-content{
@@ -16,6 +16,6 @@ body{
 }
 .main-content code{
 	font-size: unset;
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 }
