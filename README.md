@@ -15,7 +15,7 @@ The plugin comes with several pre-defined templates, allowing you to quickly cre
 
 In conclusion, Noty is an ideal solution for those who want a quick and easy way to add notifications and confirmations to their website. With its lightweight design, customizable templates, and flexible settings, Noty is a must-have tool for any web developer.
 
-- Github Pages: [https://psyll.github.io/noty-js/](https://psyll.github.io/noty-js)
+- Github Pages: [https://psyll.github.io/Noty-JS/](https://psyll.github.io/Noty-JS)
 - Online demo: [https://psyll.com/noty-js/demo](https://psyll.com/noty-js/demo)
 
 ## Table of contents
