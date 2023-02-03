@@ -59,9 +59,9 @@ const noty = new Noty({
 This code is used to define the position and values of successful notifications. The variables include:
 
 - **`hoverPause`** (default: false) - Pauses the timeout when hovering notification
-- **`timeout`** (default: 0) - The time period until the notification automatically closes (in milliseconds)
+- **`timeout`** (default: 0) - The default time period until the notification automatically closes (in milliseconds)
 - **`position`** (default: right-bottom) - The position where the notifications are displayed. Allowed positions: `top`, `right-top`, `right`, `right-bottom`, `bottom`, `left-bottom`, `left`, `left-top`
-- **`animation`** (default: null) - The name of the animation. Allowed animations: `slide-bottom`, `slide-right`, `fade`, `flip`, `zoom`
+- **`animation`** (default: null) - The names of the animations. Allowed animations: `slide-bottom`, `slide-right`, `fade`, `flip`, `zoom`
 
 With these variables defined, you can easily customize your notifications to fit your needs and enhance the user experience on your website.
 
