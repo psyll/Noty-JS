@@ -90,9 +90,9 @@ The variables include:
 - **`title`** (default: null) - The header of the notification
 - **`text`** (* required) - The content of the notification
 - **`timeout`** - The time period until the specific notification automatically closes (in milliseconds). The default value is taken from the plugin initialization.
-
+<p align="center">
 ![Notification types](assets/img/types.png "Notification types")
-
+</p>
 ## Create confirmation with buttons
 
 In order to create a confirmation notification using the Noty plugin, you can use the following code:
