@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ruleset name="Custom Standard">
+	<rule ref="PSR2">
+		<exclude name="PSR1.Classes.ClassDeclaration.MissingNamespace"/> <!-- Dont require namespace for each class -->
+		<exclude name="PSR1.Classes.ClassDeclaration.MultipleClasses"/> <!-- Do not require for each class to be in separated file -->
+		<exclude name="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/> <!-- Do not require tabs for indentation -->
+		<exclude name="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis"/> <!-- Do not require space after close parenthesis -->
+		<!-- <exclude name="_generated_diagnostic_collection_name_#5"/> Dont require phpdoc for generated code -->
+		<exclude name="Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace"/> <!-- Do not require space after close parenthesis -->
+		<exclude name="Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore"/> <!-- Do not require space after close parenthesis -->
+		<exclude name="Generic.Files.LineEndings.InvalidEOLChar"/> <!-- Do not require CL line end. -->
+	</rule>
+	<!--Set indent as tab -->
+	<rule ref="Generic.WhiteSpace.ScopeIndent">
+		<properties>
+			<property name="tabIndent" value="true"/>
+		</properties>
+	</rule>
+</ruleset>
