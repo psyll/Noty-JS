@@ -9,8 +9,9 @@
 ![Open issues](https://img.shields.io/github/issues-raw/psyll/Noty-JS)
 
 
-
-![Display](assets/img/display.gif){ width="430"style="display: block; margin: 0 auto" }
+<p align="center">
+	<img src="assets/img/display.gif" alt="Display">
+</p>
 
 
 **Noty** is a versatile javascript plugin designed to provide a simple and efficient solution for notifications on any website. With its focus on being lightweight, Noty doesn't require any additional dependencies, making it a hassle-free choice for web developers. Notifications can be customized with ease to match the look and feel of your website, giving you complete control over the appearance of your notifications.
