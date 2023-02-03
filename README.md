@@ -9,12 +9,11 @@
 ![Open issues](https://img.shields.io/github/issues-raw/psyll/Noty-JS)
 
 
-<p align="center">
-	<img src="assets/img/display.gif" alt="Display">
-</p>
-
-
 **Noty** is a versatile javascript plugin designed to provide a simple and efficient solution for notifications on any website. With its focus on being lightweight, Noty doesn't require any additional dependencies, making it a hassle-free choice for web developers. Notifications can be customized with ease to match the look and feel of your website, giving you complete control over the appearance of your notifications.
+
+<p align="center">
+	<img src="assets/img/display.gif" alt="Display" style="border:1px solid black">
+</p>
 
 The plugin comes with several pre-defined templates, allowing you to quickly create notifications with a consistent design. Additionally, you can create your own templates to suit specific requirements, such as highlighting important messages or emphasizing specific information. Noty is also flexible enough to allow you to set the position, animation, and duration of notifications, giving you full control over how your notifications are displayed.
 
@@ -98,8 +97,9 @@ The variables include:
 - **`text`** (* required) - The content of the notification
 - **`timeout`** - The time period until the specific notification automatically closes (in milliseconds). The default value is taken from the plugin initialization.
 
-
-![Notification types](assets/img/types.png "Notification types")
+<p align="center">
+	<img src="assets/img/types.png" alt="Notification types">
+</p>
 
 ## Create confirmation with buttons
 
