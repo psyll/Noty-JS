@@ -4,6 +4,12 @@
 
 <p align="center">
 
+	<a href="https://badgen.net/badge/license/pocl">
+	<img src="https://psyll.com/en/license/pocl-psyll-open-code-license" alt="Display">
+	</a>
+
+
+
 [![License](https://badgen.net/badge/license/pocl)](https://psyll.com/en/license/pocl-psyll-open-code-license)
 ![Repo Size](https://img.shields.io/github/repo-size/psyll/Noty-JS)
 ![Code Size](https://img.shields.io/github/languages/code-size/psyll/Noty-JS)
@@ -30,7 +36,7 @@
 _________________
 
 <p align="center">
-	<img src="assets/img/display.gif" alt="Display" style="border:1px solid black">
+	<img src="assets/img/display.gif" alt="Display">
 </p>
 
 _________________
