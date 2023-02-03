@@ -92,7 +92,9 @@ The variables include:
 - **`timeout`** - The time period until the specific notification automatically closes (in milliseconds). The default value is taken from the plugin initialization.
 
 <p align="center" width="100%">
+
 ![Notification types](assets/img/types.png "Notification types")
+
 </p>
 
 ## Create confirmation with buttons
