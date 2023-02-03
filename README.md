@@ -22,8 +22,8 @@ In conclusion, Noty is an ideal solution for those who want a quick and easy way
 
 * [Installation](#installation)
 * [Plugin initialization](#plugin-initialization)
-* [Create notification ](#installation)
-* [Files](#files)
+* [Create notification](#create-notification)
+* [Create confirmation with buttons](#create-confirmation-with-buttons)
 * [Authors](#authors)
 * [Changelog](#changelog)
 * [License](#license)
