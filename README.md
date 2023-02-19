@@ -12,15 +12,6 @@
 	<img src="https://img.shields.io/github/issues-raw/psyll/Noty-JS" alt="Open issues">
 </p>
 
-## Projects links
-
-- Github Repistory: [https://github.com/psyll/Noty-JS](https://github.com/psyll/Noty-JS)
-- Github Pages: [https://psyll.github.io/Noty-JS/](https://psyll.github.io/Noty-JS)
-- Homepage: [https://psyll.com/en/noty-js](https://psyll.com/en/noty-js)
-- Online Demo: [https://psyll.com/en/noty-js/demo](https://psyll.com/en/noty-js/demo)
-
-
-
 ## Table of contents
 * [Introduction](#introduction)
 * [Installation](#installation)
