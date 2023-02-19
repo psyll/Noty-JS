@@ -66,7 +66,7 @@ const noty = new Noty({
 });
 ```
 
-This code is used to define the position and values of successful notifications. The variables include:
+Parameters are used to define the position and settings of notifications.
 
 - **`hoverPause`** (default: false) - Pauses the timeout when hovering notification
 - **`timeout`** (default: 0) - The default time period until the notification automatically closes (in milliseconds)
