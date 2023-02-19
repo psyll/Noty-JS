@@ -1,4 +1,10 @@
-// Noty
+/**
+ * @author: jarek@psyll.com (Jarosław Szulc)
+ * @license: MIT
+ * @description:
+ * Versatile javascript plugin designed to provide a simple and efficient
+ * solution for notifications and confirmations on any website or web application.
+ */
 class Noty {
 	constructor({
 		timeout = 0,
@@ -16,6 +22,7 @@ class Noty {
 		text,
 		title = null,
 		timeout = this.timeout,
+		clickClose = true,
 		buttons = null,
 	}) {
 		var NotyBox = document.getElementById("noty");
@@ -42,44 +49,44 @@ class Noty {
 			NotySingleHTML += `<div class="noty-title">` + title + `</div>`;
 		}
 		NotySingleHTML += `<div class="noty-text">` + text + `</div>`;
+		let buttonsActions = {};
+		let buttonsClose = [];
 		if (buttons != null) {
 			NotySingleHTML += `<div class="noty-buttons">`;
-			jQuery.each(buttons, function (index, item) {
-				let classname = "";
-				if (typeof item.classname !== "undefined") {
-					classname = " " + item.classname;
-				}
-				var id_gen = "";
-				var characters = "abcdefghijklmnopqrstuvwxyz0123456789";
-				for (var i = 0; i < 20; i++) {
-					id_gen += characters.charAt(
-						Math.floor(Math.random() * characters.length)
-					);
-				}
-				id_gen = "noty-button-" + id_gen;
-				NotySingleHTML +=
-					`<button id="` +
-					id_gen +
-					`" class="noty-button` +
-					classname +
-					`">` +
-					item.text +
-					`</button>`;
-				$(document).on("click", "#" + id_gen, function (event) {
+			for (const buttonName in buttons) {
+				if (Object.prototype.hasOwnProperty.call(buttons, buttonName)) {
+					const item = buttons[buttonName];
+					let classname = "";
+					if (typeof item.classname !== "undefined") {
+						classname = " " + item.classname;
+					}
+					var id_gen = "";
+					var characters = "abcdefghijklmnopqrstuvwxyz0123456789";
+					for (var i = 0; i < 20; i++) {
+						id_gen += characters.charAt(
+							Math.floor(Math.random() * characters.length)
+						);
+					}
+					id_gen = "noty-button-" + id_gen;
+					NotySingleHTML +=
+						`<button id="` +
+						id_gen +
+						`" class="noty-button` +
+						classname +
+						`">` +
+						item.text +
+						`</button>`;
 					if (typeof item.action !== "undefined") {
-						item.action();
+						buttonsActions[id_gen] = function () { item.action() };
 					}
 					if (
 						typeof item.close !== "undefined" ||
 						item.close == true
 					) {
-						NotySingle.classList.remove("noty-active");
-						setTimeout(function () {
-							NotySingle.parentNode.remove();
-						}, 500);
+						buttonsClose.push(id_gen);
 					}
-				});
-			});
+				}
+			};
 			NotySingleHTML += `</div>`;
 		}
 		if (timeout != 0) {
@@ -87,14 +94,39 @@ class Noty {
 		}
 		NotySingleHTML += `</div></div>`;
 		NotyBox.insertAdjacentHTML("beforeend", NotySingleHTML);
+		for (const id in buttonsActions) {
+			if (Object.prototype.hasOwnProperty.call(buttonsActions, id)) {
+				const action = buttonsActions[id];
+				document.getElementById(id).addEventListener('click', action);
+			}
+		}
 		var NotySingle = document.getElementById(NotyID);
+		buttonsClose.forEach((id) => {
+			const element = document.getElementById(id);
+			if (element) {
+				element.addEventListener('click', function () {
+					NotySingle.classList.remove("noty-active");
+					setTimeout(function () {
+						NotySingle.parentNode.remove();
+					}, 500);
+				});
+			}
+		});
+		if (clickClose == true){
+			NotySingle.addEventListener('click', function () {
+                NotySingle.classList.remove("noty-active");
+                setTimeout(function () {
+                    NotySingle.parentNode.remove();
+                }, 500);
+            });
+		}
 		setTimeout(function () {
 			NotySingle.classList.add("noty-active");
 		}, 100);
 		if (timeout != 0) {
-			var NotyBar = NotySingle.querySelector(".noty-bar");
+			const NotyBar = NotySingle.querySelector(".noty-bar");
 			let minus = 0;
-			var isPaused = false;
+			let isPaused = false;
 			let progress = setInterval(function () {
 				if (!isPaused) {
 					minus = minus + 100;

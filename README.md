@@ -24,7 +24,7 @@
 
 ## Introduction
 
-**Noty** is a versatile javascript plugin designed to provide a simple and efficient solution for notifications on any website. With its focus on being lightweight, Noty doesn't require any additional dependencies, making it a hassle-free choice for web developers. Notifications can be customized with ease to match the look and feel of your website, giving you complete control over the appearance of your notifications.
+**Noty** is a versatile javascript library designed to provide a simple and efficient solution for notifications on any website. With its focus on being lightweight, Noty doesn't require any additional dependencies, making it a hassle-free choice for web developers. Notifications can be customized with ease to match the look and feel of your website, giving you complete control over the appearance of your notifications.
 
 _________________
 
@@ -90,6 +90,7 @@ noty.push({
   type: "log",
   title: "Log",
   text: "I am a log message",
+  clickClose: true,
   timeout: 4000,
 });
 ```
@@ -99,6 +100,7 @@ The variables include:
 - **`type`** (default: log) - The type of notification. Allowed types are: `log`, `success`, `warning`, `error`
 - **`title`** (default: null) - The header of the notification
 - **`text`** (* required) - The content of the notification
+- **`clickClose`** (default: true) - Remove notification after click on it
 - **`timeout`** - The time period until the specific notification automatically closes (in milliseconds). The default value is taken from the plugin initialization.
 
 <p align="center">
@@ -114,7 +116,7 @@ noty.push({
   text: 'Confirmation text',
   buttons: {
   	ok: {
-  		text: "OK"
+  		text: "OK",
   		action: function () {
   			alert('OK button clicked');
   		}
@@ -145,7 +147,7 @@ noty.push({
   buttons: {
   	ok: {
   	  classname: "noty-button-true",
-  		text: "OK"
+  		text: "OK",
   		action: function () {
   			alert('OK button clicked');
   		}

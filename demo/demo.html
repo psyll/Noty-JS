@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noty JS Test</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 12px;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="../dist/noty.min.css" />
+</head>
+
+<body>
+    <h2>Default</h2>
+    <button id="default">Default / Log</button>
+    <button id="success">Success</button>
+    <button id="warning">Warning</button>
+    <button id="error">Error</button>
+    <button id="confirm">Confirmation</button>
+    <h2>With title</h2>
+    <button id="title_default">Default / Log</button>
+    <button id="title_success">Success</button>
+    <button id="title_warning">Warning</button>
+    <button id="title_error">Error</button>
+    <button id="title_confirm">Confirmation</button>
+    <h2>Timeout</h2>
+    <button id="timeout_false">False</button>
+    <button id="timeout_1000">1000</button>
+    <button id="timeout_5000">5000</button>
+    <button id="timeout_10000">10000</button>
+    <button id="timeout_600000">600000</button>
+
+
+
+    <script src="../dist/noty.js"></script>
+    <script>
+        const noty = new Noty({
+            hoverPause: true,
+            timeout: 4000,
+            position: "right-bottom",
+            animation: "slide-right fade flip zoom",
+        });
+        document.getElementById("default").addEventListener("click", function () {
+            noty.push({
+                text: "I am a default message",
+                timeout: 4000,
+            });
+        });
+        document.getElementById("info").addEventListener("click", function () {
+            noty.push({
+                text: "I am a info message",
+                timeout: 4000,
+            });
+        });
+        document.getElementById("success").addEventListener("click", function () {
+            noty.push({
+                type: "success",
+                text: "I am a success message",
+                timeout: 4000,
+            });
+        });
+        document.getElementById("warning").addEventListener("click", function () {
+            noty.push({
+                type: "warning",
+                text: "I am a warning message",
+                timeout: 4000,
+            });
+        });
+        document.getElementById("error").addEventListener("click", function () {
+            noty.push({
+                type: "error",
+                text: "I am a error message",
+                timeout: 4000,
+            });
+        });
+
+        document.getElementById("confirm").addEventListener("click", function () {
+            noty.push({
+                text: 'Confirmation text',
+                buttons: {
+                    ok: {
+                        text: "OK",
+                        close: true,
+                        action: function () {
+                            alert('OK button clicked');
+                        },
+                    },
+                    close: {
+                        text: 'Close',
+                        close: true
+                    },
+                }
+            });
+        });
+
+
+        document.getElementById("title_default").addEventListener("click", function () {
+            noty.push({
+                title: "Default / Log",
+                text: "I am a default message",
+                timeout: 4000,
+            });
+        });
+        document.getElementById("title_success").addEventListener("click", function () {
+            noty.push({
+                title: "Success",
+                type: "success",
+                text: "I am a success message",
+                timeout: 4000,
+            });
+        });
+        document.getElementById("title_warning").addEventListener("click", function () {
+            noty.push({
+                title: "Warning",
+                type: "warning",
+                text: "I am a warning message",
+                timeout: 4000,
+            });
+        });
+        document.getElementById("title_error").addEventListener("click", function () {
+            noty.push({
+                title: "Error",
+                type: "error",
+                text: "I am a error message",
+                timeout: 4000,
+            });
+        });
+
+        document.getElementById("title_confirm").addEventListener("click", function () {
+            noty.push({
+                title: 'Box title',
+                text: 'Confirmation text',
+                buttons: {
+                    ok: {
+                        text: "OK",
+                        close: true,
+                        action: function () {
+                            alert('OK button clicked');
+                        },
+                    },
+                    close: {
+                        text: 'Close',
+                        close: true
+                    },
+                }
+            });
+        });
+        document.getElementById("timeout_false").addEventListener("click", function () {
+            noty.push({
+                type: "success",
+                text: "I have no timeout",
+                timeout: false,
+            });
+        });
+        document.getElementById("timeout_1000").addEventListener("click", function () {
+            noty.push({
+                type: "success",
+                text: "I have 1 second timeout",
+                timeout: 1000,
+            });
+        });
+        document.getElementById("timeout_5000").addEventListener("click", function () {
+            noty.push({
+                type: "success",
+                text: "I have 5 seconds timeout",
+                timeout: 5000,
+            });
+        });
+        document.getElementById("timeout_10000").addEventListener("click", function () {
+            noty.push({
+                type: "success",
+                text: "I have 10 seconds timeout",
+                timeout: 10000,
+            });
+        });
+        document.getElementById("timeout_600000").addEventListener("click", function () {
+            noty.push({
+                type: "success",
+                text: "I have 1 minute timeout",
+                timeout: 600000,
+            });
+        });
+    </script>
+</body>
+
+</html>
