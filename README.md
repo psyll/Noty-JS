@@ -127,7 +127,7 @@ noty.push({
    		action: function () {
    			alert('Close button clicked');
   		},
-   		close: true,
+   		close: true
    	},
   }
 });
@@ -159,7 +159,7 @@ noty.push({
   		action: function () {
   			alert('Close button clicked');
   		},
-  		close: true,
+  		close: true
   	},
   }
 });
