@@ -102,6 +102,7 @@ The variables include:
 - **`text`** (* required) - The content of the notification
 - **`clickClose`** (default: true) - Remove notification after click on it
 - **`timeout`** - The time period until the specific notification automatically closes (in milliseconds). The default value is taken from the plugin initialization.
+- **`buttons`** - The buttons object
 
 <p align="center">
 	<img src="assets/img/types.png" alt="Notification types">
@@ -109,7 +110,7 @@ The variables include:
 
 ## Create confirmation with buttons
 
-In order to create a confirmation notification using the Noty plugin, you can use the following code:
+To generate buttons for notifications, you can use the "buttons" parameter of the "push" method. The "buttons" parameter accepts an object where each property represents a button.
 
 ```javascript
 noty.push({
@@ -134,7 +135,7 @@ noty.push({
 
 In this code, we are using the `noty.push()` method to create a new notification. The text property is used to set the confirmation message, while the buttons property is used to specify the available buttons in the notification.
 
- Each button has its own text property which sets the label for the button, and action property, which specifies the function that will be executed when the button is clicked. The close property, which is set to true is used to indicate that the notification should be closed when the button is clicked.
+Each button has its own text property which sets the label for the button, and action property, which specifies the function that will be executed when the button is clicked. The close property, which is set to true is used to indicate that the notification should be closed when the button is clicked.
 
  A more advanced version of the code could look like this:
 
